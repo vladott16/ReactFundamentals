@@ -9,6 +9,7 @@ import { Stylesheet } from './components/Stylesheet';
 import { UserGreeting } from './components/UserGreeting';
 import { PostList } from './components/PostList';
 import { PostForm } from './components/PostForm';
+import ClassComponent from './components/ClassComponent';
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
       <Form />
       <PostList />
       <PostForm />
+      <ClassComponent />
     </div>
   );
 }
